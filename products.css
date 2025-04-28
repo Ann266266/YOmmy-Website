@@ -1,0 +1,54 @@
+body{
+    background-image:url("Assets/Backgrounds.jpeg");
+    background-size: cover;
+}
+.card{
+    width:270px; 
+    margin:10px;
+    height:500px;
+    box-shadow: 0 0 2px ; 
+    padding: 10px; 
+    position: relative;
+    text-align: center; 
+    background-color: rgba(255, 199, 244, 0.872);
+}
+.card img{
+    width: 70%;
+}
+.product{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.harga{
+    height: 25px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 95%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    margin-top: 10px;
+    position: absolute;
+    right: 98px;
+    bottom: 10px;
+}
+.opening{
+    padding: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    background-color: #ff70f588;
+}
+.deskripsi{
+    padding: 5px;
+    text-align: center;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.card button{
+    position: absolute;
+    height: 6%;
+    width: 80%;
+    right: 28px;
+    bottom: 10px;
+    background-color: rgba(255, 0, 217, 0.781);
+}
